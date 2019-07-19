@@ -1,9 +1,9 @@
 import pytest
 
-from str_calc import StringCalculator
+import str_calc
 
 def create_string_calculator():
-    return StringCalculator()
+    return str_calc
 
 def add_and_assert(numbers, output):
     calc = create_string_calculator()
